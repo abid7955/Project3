@@ -1,6 +1,6 @@
 import React from "react";
 import {useNavigate} from "react-router-dom";
-function Login(){
+function Login2(){
     const navigate = useNavigate();
     return(
 
@@ -179,4 +179,4 @@ function Login(){
 </section>
     )
 }
-export default Login;
+export default Login2;
