@@ -8,7 +8,7 @@ function How(){
             <article className="w-50 overflow-hidden rounded-lg shadow transition hover:shadow-lg">
 
   <div className="bg-white p-4 sm:p-6">
-    <time datetime="2022-10-10" className="block text-xs text-gray-500"> 10th Oct 2022 </time>
+    {/* <time  className="block text-xs text-gray-500"> 10th Oct 2022 </time> */}
 
     <a href="#">
       <h3 className="mt-0.5 text-lg text-gray-900">How to position your furniture for positivity</h3>

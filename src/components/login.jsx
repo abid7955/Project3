@@ -6,7 +6,9 @@ function Login() {
   return (
     <section className="bg-white">
       <div className="lg:grid lg:min-h-screen lg:grid-cols-12">
+
         <section className="relative flex h-32 items-end bg-gray-900 lg:col-span-5 lg:h-full xl:col-span-6">
+
           <img
             alt=""
             src="https://s3-alpha-sig.figma.com/img/b7a1/8134/8459f263a3beba150e98cf2b2582bda7?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DsAaDuoA397O8~PmQGkecLPT5kqmIx1sYT4L8A6CEDxk12iQ3gElzGCdsN7-zL1Ay4yrGAD80ZVa5wGq7o5WHztkdQmxJ23iDWwrzRuJMm6NicKLFun9DnCDkf-0ryXZPwk7XcjJyB9BpW6pDy7PvmTmvFQu-cfK~6wr0N8qSdhXwk7R5jB2y~MRAvNmsFOwIKRl-FkHefd2jm0zAGXZVM~ZS27dF8DG4B1hZYBxQ-1Kdc1otiog8ewl0fJoZZ~3or55LdlfAS~yAf2wyd43oEjlCnj0TYPukFfywjAq9n9JGwb094Vs-7bvIyWoTmmUvP9gq~N4J5okI5-piefPBA__"
@@ -33,9 +35,9 @@ function Login() {
               Welcome to InterviewPro
             </h2>
 
-            <p className="mt-4 leading-relaxed text-white/90">
+            {/* <p className="mt-4 leading-relaxed text-white/90">
               Signup as a Candidate
-            </p>
+            </p> */}
           </div>
         </section>
 
@@ -60,8 +62,12 @@ function Login() {
                 </svg>
               </a>
             </div>
+            
+            <h2 className="mt-0 text-2xl font-bold text-[#09005F] sm:text-3xl md:text-4xl">
+              SignUp as a Candidate
+            </h2>
 
-            <h2 className="mt-6 text-2xl font-bold text-black sm:text-3xl md:text-4xl">
+            <h2 className="mt-6 text-lg font-bold text-black sm:text-3xl md:text-4xl">
               Create an Account
             </h2>
 
