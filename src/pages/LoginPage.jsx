@@ -1,12 +1,14 @@
-import React from 'react'
-import LoginChoose from '../components/LoginChoose'
+import React from "react";
+import LoginChoose from "../components/LoginChoose";
+import Navbar from "../components/navbar";
 
 function LoginPage() {
   return (
     <>
-     <LoginChoose />
+      <Navbar />
+      <LoginChoose />
     </>
-  )
+  );
 }
 
-export default LoginPage
+export default LoginPage;

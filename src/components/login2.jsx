@@ -145,7 +145,7 @@ function Login2(){
                     className="block text-sm font-medium text-gray-700"
                   >
                     {" "}
-                    Email Address
+                    Work Email Address
                   </label>
   
                   <input

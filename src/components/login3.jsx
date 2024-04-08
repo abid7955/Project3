@@ -170,7 +170,57 @@ function Login3(){
                     className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
                   />
                 </div>
+
+                <div className="col-span-6 sm:col-span-3">
+                  <label
+                    htmlFor="Password"
+                    className="block text-sm font-medium text-gray-700"
+                  >
+                    {" "}
+                    Organization Name{" "}
+                  </label>
   
+                  <input
+                    type="password"
+                    id="Password"
+                    name="password"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                  />
+                </div>
+
+                <div className="col-span-6 sm:col-span-3">
+                  <label
+                    htmlFor="Password"
+                    className="block text-sm font-medium text-gray-700"
+                  >
+                    {" "}
+                    Experience{" "}
+                  </label>
+  
+                  <input
+                    type="password"
+                    id="Password"
+                    name="password"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                  />
+                </div>
+
+                <div className="col-span-6">
+                  <label
+                    htmlFor="FirstName"
+                    className="block text-sm font-medium text-gray-700"
+                  >
+                    LinkedIn Profile
+                  </label>
+  
+                  <input
+                    type="text"
+                    id="FirstName"
+                    name="first_name"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                  />
+                </div>
+
                 <div className="col-span-6">
                   <label
                     htmlFor="PasswordConfirmation"
