@@ -1,48 +1,46 @@
 import React from "react";
 function How(){
-    return(
-        <>
-            <div className="text-lg align-center">Pricing</div>
-            <div className="">Choose the plan and interviewer that best fit your requirements.</div>
-            <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-2">
-            <article className="w-50 overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+  return (
+    <>
+        <h2 className='text-3xl color-[#09005F] font-bold text-center w-full mt-5'>How We Work</h2>
+        <div className="m-10 grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
+            <section class="bg-white">
+                <div class="container px-6 py-12 mx-auto">
+                    <div class="grid grid-cols-1 gap-8">
+                        <div className='bg-gray-900 p-10 rounded-xl'>
 
-  <div className="bg-white p-4 sm:p-6">
-    {/* <time  className="block text-xs text-gray-500"> 10th Oct 2022 </time> */}
+                            {/* <h1 class="mt-4 text-xl font-semibold text-gray-800 dark:text-white">Default Taiwindcss Config</h1> */}
 
-    <a href="#">
-      <h3 className="mt-0.5 text-lg text-gray-900">How to position your furniture for positivity</h3>
-    </a>
+                            <p class=" text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim fusce tortor, ac sed malesuada blandit. Et mi gravida sem feugiat.</p>
+                        </div>
 
-    <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus
-      pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis quidem,
-      mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque
-      dignissimos. Molestias explicabo corporis voluptatem?
-    </p>
-  </div>
-</article>
+                        <div className='bg-[#D6E1F3] p-10 rounded-xl'>
+                            
+                            {/* <h1 class="mt-4 text-xl font-semibold text-gray-800 dark:text-white">Fully Responsive Components</h1> */}
 
-<article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+                            <p class=" text-[#09005F] ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim fusce tortor, ac sed malesuada blandit. Et mi gravida sem feugiat.</p>
+                        </div>
 
-  <div className="bg-white p-4 sm:p-6">
-    <time datetime="2022-10-10" className="block text-xs text-gray-500"> 10th Oct 2022 </time>
+                        <div className='bg-[#D6E1F3] p-10 rounded-xl'>
+                           
 
-    <a href="#">
-      <h3 className="mt-0.5 text-lg text-gray-900">How to position your furniture for positivity</h3>
-    </a>
+                            {/* <h1 class="mt-4 text-xl font-semibold text-gray-800 dark:text-white">RTL Languages Support</h1> */}
 
-    <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores, possimus
-      pariatur animi temporibus nesciunt praesentium dolore sed nulla ipsum eveniet corporis quidem,
-      mollitia itaque minus soluta, voluptates neque explicabo tempora nisi culpa eius atque
-      dignissimos. Molestias explicabo corporis voluptatem?
-    </p>
-  </div>
-</article>
+                            <p class=" text-[#09005F] ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim fusce tortor, ac sed malesuada blandit. Et mi gravida sem feugiat.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* Section2  */}
+            <div class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
+                <img
+                    alt=""
+                    src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                    class="absolute inset-0 h-full w-full object-cover"
+                />
+            </div>
         </div>
-        </>
-
-    )
+    </>
+)
 }
 export default How;
