@@ -5,15 +5,15 @@ import { Link } from 'react-router-dom'
 function LoginChoose() {
     return (
         <>
-            <section id="pricing">
+            <section id="login-choose">
                 <div className="stat-title">Pricing</div>
                 <div>Choose the plan and interviewer that best fit your requirements.</div>
                 <div className="plans">
-                    <div className="plan">
-                        <div className="content">
+                    <div className="plan1">
+                        <div className="log-content">
                             <div>
                                 <p className="plan-type">Intro</p>
-                                <p className="plan-desc">Basic Plan</p>
+                                <p className="login-desc">Basic Plan</p>
                             </div>
                             <div className="features">
                                 <p className="f">Starter Features</p>
@@ -41,11 +41,11 @@ function LoginChoose() {
 
                         <Link to="/login1" className="primary">Choose Plan</Link>
                     </div>
-                    <div className="plan">
-                        <div className="content">
+                    <div className="plan1">
+                        <div className="log-content">
                             <div>
                                 <p className="plan-type">Intro</p>
-                                <p className="plan-desc">Basic Plan</p>
+                                <p className="login-desc">Basic Plan</p>
                             </div>
                             <div className="features">
                                 <p className="f">Starter Features</p>
@@ -84,11 +84,11 @@ function LoginChoose() {
                         </div>
                         <Link to="/login2" className="primary">Choose Plan</Link>
                     </div>
-                    <div className="plan">
-                        <div className="content">
+                    <div className="plan1">
+                        <div className="log-content">
                             <div>
                                 <p className="plan-type">Intro</p>
-                                <p className="plan-desc">Basic Plan</p>
+                                <p className="login-desc">Basic Plan</p>
                             </div>
                             <div className="features">
                                 <p className="f">Starter Features</p>
