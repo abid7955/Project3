@@ -1,17 +1,20 @@
-import { useState } from 'react'
-import Login from './components/login'
-import Pricingpage from './pages/pricingpage'
-import Homepage from './pages/homepage'
-import './App.css'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import Homepage from './pages/homepage';
+import Pricingpage from './pages/pricingpage';
+import Login from './components/login';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-<>
-<Login/>
-</>
-  )
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/home" element={<Homepage />} />
+          <Route path="/pricing" element={<Pricingpage />} />
+        </Routes>
+      </Router>
+    </>
+  );
 }
 
-export default App
+export default App;
