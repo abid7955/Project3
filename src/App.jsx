@@ -6,6 +6,7 @@ import LoginPage from './pages/LoginPage';
 import Login2 from './components/login2';
 import Login3 from './components/login3';
 import SignupPrimaryPage from './pages/SignPrimaryPage';
+import Dashboard1 from './components/dashboard1';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/login2" element={<Login2/>} />
           <Route path="/login3" element={<Login3/>} />
           <Route path="/signprimary" element={<SignupPrimaryPage />} />
+          <Route path="/dashboard" element={<Dashboard1 />} />
         </Routes>
       </Router>
     </>
