@@ -5,6 +5,7 @@ import Login from './components/login';
 import LoginPage from './pages/LoginPage';
 import Login2 from './components/login2';
 import Login3 from './components/login3';
+import SignupPrimaryPage from './pages/SignPrimaryPage';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/login1" element={<Login/>} />
           <Route path="/login2" element={<Login2/>} />
           <Route path="/login3" element={<Login3/>} />
+          <Route path="/signprimary" element={<SignupPrimaryPage />} />
         </Routes>
       </Router>
     </>
